@@ -19,18 +19,19 @@ ________________________________________________________________________________
 
 // • indico che per i numeri multipli sia di 3 che di 5 deve venire stampato FizzBuzz al posto del numero
     if (i % 3 === 0 && i % 5 === 0) {
-        console.log("FizzBuzz", i);
+        console.log("FizzBuzz");
     }
 
 // • indico che per i numeri multipli di 3 deve venire stampato Fizz al posto del numero
     else if (i % 3 === 0) {
-        console.log("Fizz", i);
+        //OUTPUT
+        console.log("Fizz");
     }
 
 
 // • indico che per i numeri multipli di 5 deve venire stampato Buzz al posto del numero
     else if (i % 5 === 0) { 
-        console.log("Buzz", i); }
+        console.log("Buzz"); }
    
     
 // • altrimenti stampo il numero intero
