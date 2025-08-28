@@ -31,12 +31,13 @@ ________________________________________________________________________________
 // • indico che per i numeri multipli di 5 deve venire stampato Buzz al posto del numero
     else if (i % 5 === 0) { 
         console.log("Buzz", i); }
-    }
+   
     
-
-
-
 // • altrimenti stampo il numero intero
+    else { 
+        console.log(i);
+    }
+ }
 
 //___________________________________________________________________________________________
 
